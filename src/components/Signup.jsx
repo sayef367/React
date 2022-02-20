@@ -6,9 +6,9 @@ const Signup = () => {
     return (
         <div className='container'>
             <div className='row justify-content-md-center'>
-                <section className='col-md-8  shadow mt-5 bg-body rounded'>
+                <section className='col-lg-10  shadow mt-5 bg-body rounded'>
                     <div className='row p-4'>
-                        <div className='col-lg-6 col-md-12'>
+                        <div className='col-lg-6'>
                             <div className='mt-3 offset-md-1'>
                                 <h1 className='fw-bold'>Sign Up</h1>
                             </div>
@@ -45,7 +45,7 @@ const Signup = () => {
                             </form>
                         </div>
 
-                        <div className='col-md-6 align-self-center'>
+                        <div className='col-lg-6 align-self-center  d-none d-lg-block'>
                             <img src={registration} className='img-fluid ' alt="logo" width={'800px'}/>
                         </div>
                     </div>

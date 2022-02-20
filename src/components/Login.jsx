@@ -38,7 +38,7 @@ const Login = () => {
                             </form>
                         </div>
 
-                        <div className='col-lg-6 col-md-12 text-center'>
+                        <div className='col-lg-6 col-md-12 text-center  d-none d-lg-block'>
                             <figure>
                                 <img src={login_png} className='img-fluid' alt="login" width={'400px'}/>
                             </figure>
